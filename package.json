@@ -1,0 +1,23 @@
+{
+  "name": "cli-tool",
+  "version": "0.1.2",
+  "description": "Command Line Utility",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamcutler/cli-tool.git"
+  },
+  "author": "iamcutler <iamcutler@icloud.com>",
+  "license": "ISC",
+  "bin": {
+    "cliTool": "./app.js"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
+  }
+}
